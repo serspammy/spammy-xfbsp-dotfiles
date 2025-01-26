@@ -1,5 +1,6 @@
 # spammy-i3wm-dotfiles
-![image](https://github.com/user-attachments/assets/ef361a76-94ed-42b3-a72d-b27ea8c0b7ae)
+![image](https://github.com/user-attachments/assets/930919a0-a5b2-437c-bd5d-0185c3e40a9b)
+
 
 my i3 window manager configuration files. am i doing this right?
 
