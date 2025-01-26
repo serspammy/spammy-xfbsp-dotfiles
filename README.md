@@ -8,3 +8,5 @@ additional packages i use: alacritty btop lxappearance qimgv
 nerd fonts used: UbuntuMono, SauceCodePro
 
 custom polybar module(s): weather (https://github.com/Strix007/polybar-getweather)
+
+custom rofi mode(s): power (https://github.com/jluttine/rofi-power-menu/tree/master)
