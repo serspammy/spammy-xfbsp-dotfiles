@@ -4,7 +4,7 @@
 
 my i3 window manager configuration files. am i doing this right?
 
-required packages: i3 jq nitrogen picom polybar rofi
+required packages: i3 jq nitrogen picom polybar rofi brightnessctl
 
 additional things i use: alacritty btop lxappearance qimgv
 
