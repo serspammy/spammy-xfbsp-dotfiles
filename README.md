@@ -8,7 +8,7 @@ required packages: i3 jq nitrogen picom polybar rofi brightnessctl
 
 additional things i use: alacritty btop lxappearance qimgv copyq flameshot emote
 
-nerd fonts used: UbuntuMono, SauceCodePro
+nerd fonts used: UbuntuMono, SauceCodePro, Iovseka
 
 custom polybar module(s): weather (https://github.com/Strix007/polybar-getweather)
 
@@ -16,3 +16,5 @@ custom rofi mode(s): power (https://github.com/jluttine/rofi-power-menu/tree/mas
 
 
 note: i am very dumb and MIGHT have used `/serspammy/` for paths to the home directory instead of `~/`. if you find any instances of this please let me know!!!!
+
+note2: i have literally no idea how to fix the transparency on tooltips. if anyone knows a fix PLEASE LET ME KNOW!!!!PLEASE
