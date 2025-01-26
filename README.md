@@ -16,4 +16,5 @@ custom rofi mode(s): power (https://github.com/jluttine/rofi-power-menu/tree/mas
 
 
 note: i am very dumb and MIGHT have used `/serspammy/` for paths to the home directory instead of `~/`. if you find any instances of this please let me know!!!!
-note2: split v is changed to mod+b so as not to conflict with copyq's keybinding
+
+note2: split v is changed to mod+b so as not to conflict with copyq's keybinding. also flameshot's keybind is Print
