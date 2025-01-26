@@ -10,3 +10,5 @@ nerd fonts used: UbuntuMono, SauceCodePro
 custom polybar module(s): weather (https://github.com/Strix007/polybar-getweather)
 
 custom rofi mode(s): power (https://github.com/jluttine/rofi-power-menu/tree/master)
+
+note: i am very dumb and MIGHT have used `/serspammy/` for paths to the home directory instead of `~/`. if you find any instances of this please let me know!!!!
