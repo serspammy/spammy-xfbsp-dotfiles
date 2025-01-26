@@ -13,5 +13,7 @@ custom polybar module(s): weather (https://github.com/Strix007/polybar-getweathe
 
 custom rofi mode(s): power (https://github.com/jluttine/rofi-power-menu/tree/master)
 
+
 note: i am very dumb and MIGHT have used `/serspammy/` for paths to the home directory instead of `~/`. if you find any instances of this please let me know!!!!
+
 note2: the nitrogen config path links to a wallpaper not provided in this repo. you'll probably use your own wallpaper anyways just change it in nitrogen
