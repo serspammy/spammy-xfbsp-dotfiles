@@ -6,7 +6,7 @@ my i3 window manager configuration files. am i doing this right?
 
 required packages: i3 jq nitrogen picom polybar rofi brightnessctl
 
-additional things i use: alacritty btop lxappearance qimgv copyq flameshot
+additional things i use: alacritty btop lxappearance qimgv copyq flameshot emote
 
 nerd fonts used: UbuntuMono, SauceCodePro
 
@@ -16,5 +16,3 @@ custom rofi mode(s): power (https://github.com/jluttine/rofi-power-menu/tree/mas
 
 
 note: i am very dumb and MIGHT have used `/serspammy/` for paths to the home directory instead of `~/`. if you find any instances of this please let me know!!!!
-
-note2: split v is changed to mod+b so as not to conflict with copyq's keybinding. also flameshot's keybind is Print
