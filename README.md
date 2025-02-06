@@ -35,3 +35,4 @@
 4. i wanted to have rofi fly in from the left as a sidebar but i couldn't get the window rule to work. genereally picom's new window rules make my head hurt so i just don't use them 💀
 5. this is basically my first rice so some stuff might be messed up sorry!!!!
 6. the rofi folder is heavily cut down, go to the rofi themes repo linked above for more themes and stuff to use
+7. workspace switching animations don't seem to work a third of the time
