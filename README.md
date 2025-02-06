@@ -33,6 +33,5 @@
  **3. press $mod+t to set a random wallpaper! they're located inside `~/.config/nitrogen/wallpapers`**
 
 4. i wanted to have rofi fly in from the left as a sidebar but i couldn't get the window rule to work. genereally picom's new window rules make my head hurt so i just don't use them 💀
-5. the rofi powermenu's text will probably "break" if your uptime is long enough
-6. this is basically my first rice so some stuff might be messed up sorry!!!!
-7. the rofi folder is heavily cut down, go to the rofi themes repo linked above for more themes and stuff to use
+5. this is basically my first rice so some stuff might be messed up sorry!!!!
+6. the rofi folder is heavily cut down, go to the rofi themes repo linked above for more themes and stuff to use
