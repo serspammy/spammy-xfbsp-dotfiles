@@ -15,6 +15,8 @@ my i3 window manager configuration files. am i doing this right?
 
 *rofi theme*: https://github.com/adi1090x/rofi
 
+*image viewer*: qimgv
+
 -----
 
 **vv probably needs to be built from source if you're on a deb-based distro vv**
