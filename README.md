@@ -26,7 +26,7 @@
 
 # notes:
 
- **1. add yourself to the `video` group for brightnessctl to work without `sudo`** (there's probably a more graceful way of doing this but this is what works for me)
+ **1. add yourself to the `video` group for brightnessctl to work without `sudo`** (there's probably a more graceful way of doing this but this is what works for me. if you have a preferred or outright better solution then please change the config accordingly)
  
  **2. the polybar weather module is not provided, follow the instructions given in https://github.com/Strix007/polybar-getweather** (or just use one that doesn't require an openweather account lol i should've tried looking for that myself)
  
