@@ -1,9 +1,9 @@
 # spammy-i3wm-dotfiles
-![image](https://github.com/user-attachments/assets/67cd62b7-6ed7-4018-bf95-dffde9b42bac)
+![image](https://github.com/user-attachments/assets/8f3c3659-7e90-425c-946e-1778b34bb5fb)
 
-*required packages*: i3, jq, nitrogen, polybar, rofi, brightnessctl, alacritty(or any terminal emulator that works with nerdfonts)
+*required packages*: i3, jq, nitrogen, polybar, picom, rofi, brightnessctl, alacritty(or any terminal emulator that works with nerdfonts)
 
-`$ sudo apt install i3 jq nitrogen polybar rofi brightnessctl alacritty`  (i've never used any distro other than mint so i don't know how other package managers are used, sorry)
+`$ sudo apt install i3 jq nitrogen polybar picom rofi brightnessctl alacritty`  (i've never used any distro other than mint so i don't know how other package managers are used, sorry)
 
 -----
 
