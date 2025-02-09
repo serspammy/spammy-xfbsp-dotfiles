@@ -31,7 +31,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # Locks the screen with i3lock-color
 # exec --no-startup-id .config/i3/i3lock-color.sh
-# ^ does not work. just run the command manually after logging in
+# ^ does not work (from my experience). just run the script manually after logging in. if someone knows a fix PLEASE LET ME KNOW!!!!!!!!!
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -203,15 +203,19 @@ bar {
 exec_always --no-startup-id xrandr --output eDP-1 --mode 1920x1080
 
 # Set default border
-default_border none
-default_floating_border none
+default_border pixel
+default_floating_border pixel
 
-# border colors (these might suck because i usually have them off anyways, i didn't really bother trying to get them to work well with rounded corners)
+# border colors 
 # class                 border    backgr.   text    indicator  child_border
-client.focused          #ff7139D0 #ff7139D0 #ffffff #ff7139D0  #ff7139D0
-client.focused_inactive #ff713980 #ff713980 #ffffff #ff713980  #ff713980
-#client.unfocused        #ff7139A0 #ff7139A0 #888888 #ff7139A0  #ff7139A0
-client.unfocused        #b54f27A0 #b54f27A0 #888888 #b54f27A0  #b54f27A0
+
+# client.focused          #ff7139D0 #ff7139D0 #ffffff #ff7139D0  #ff7139D0
+client.focused		#ff7139   #ff7139   #ff7139 #ff7139    #ff7139
+# client.focused_inactive #ff713980 #ff713980 #ffffff #ff713980  #ff713980
+client.focused_inactive #4f220f #4f220f #00000000 #4f220f  #4f220f
+# client.unfocused        #ff7139A0 #ff7139A0 #888888 #ff7139A0  #ff7139A0
+client.unfocused	 #4f220f #4f220f #00000000 #4f220f  #4f220f
+# client.unfocused        #b54f27A0 #b54f27A0 #888888 #b54f27A0  #b54f27A0
 client.urgent           #2f343a0D #9000000D #ffffff #9000000D  #9000000D
 client.placeholder      #00000000 #00000000 #ffffff #00000000  #00000000
 
