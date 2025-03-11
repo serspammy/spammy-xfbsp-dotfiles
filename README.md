@@ -4,6 +4,9 @@
 
 `$ sudo apt install i3 jq nitrogen polybar picom rofi brightnessctl alacritty`  (i've never used any distro other than mint so i don't know how other package managers are used, sorry)
 
+flatpak(s): `flatpak install com.tomjwatson.Emote`
+extra packages: `sudo apt install nala copyq btop cmatrix flameshot`
+
 -----
 
 *nerd fonts used*: UbuntuMono, SauceCodePro, JetBrainsMono
