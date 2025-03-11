@@ -1,6 +1,3 @@
-# spammy-i3wm-dotfiles
-![image](https://github.com/user-attachments/assets/8f3c3659-7e90-425c-946e-1778b34bb5fb)
-
 # this branch has the configuration files from my computer, unmodified. i'd rather not use these files if i were you
 
 *required packages*: i3, jq, nitrogen, polybar, picom, rofi, brightnessctl, alacritty(or any terminal emulator that works with nerdfonts)
