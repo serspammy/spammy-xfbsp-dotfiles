@@ -23,18 +23,24 @@
 
 opacity = 0.7
 
-padding.x = 6
-padding.y = 6
+padding.x = 16
+padding.y = 16
 
 decorations = "Full"
-decorations_theme_variant = "Light" # "Dark"
+decorations_theme_variant = "Dark"
 
 [font]
 
-normal.family = "SauceCodePro Nerd Font"
-bold.family = "SauceCodePro Nerd Font"
-italic.family = "SauceCodePro Nerd Font"
-bold_italic.family = "SauceCodePro Nerd Font"
+normal.family = "JetBrainsMono Nerd Font"
+bold.family = "JetBrainsMono Nerd Font"
+italic.family = "JetBrainsMono Nerd Font"
+bold_italic.family = "JetBrainsMono Nerd Font"
+
+[colors.primary]
+
+background = "#2d1b14"
+#background = "#4d241a"
+foreground = "#edddbd"
 
 # Tip: for inspiration, look for values in the source code files of your favorite VS Code themes, and use the color picker in
 # Google to test colors before setting a value, or simply using an editor such as VS Code where colors are displayed in a 
