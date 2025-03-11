@@ -6,7 +6,7 @@
 
 -----
 
-*nerd fonts used*: UbuntuMono, SauceCodePro, Iovseka
+*nerd fonts used*: UbuntuMono, SauceCodePro, JetBrainsMono
 
 *custom polybar modules*: power and launcher (https://github.com/adi1090x/rofi)
 
