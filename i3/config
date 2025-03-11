@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:JetBrainsMono Nerd Font 10
+font pango:SauceCodePro Nerd Font 10
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -27,11 +27,8 @@ exec --no-startup-id dex --autostart --environment i3
 # they are included here as an example. Modify as you see fit.
 
 # Locks the screen with upon suspension
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-
-# Locks the screen with i3lock-color
 # exec --no-startup-id .config/i3/xss-lock
-# ^ does not work (from my experience). just run the script manually after logging in. if someone knows a fix PLEASE LET ME KNOW!!!!!!!!!
+# does not work. just run the command manually after logging in
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -45,8 +42,8 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # Use brightnessctl to adjust backlight (Screen brightness)
-# bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
-# bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set +5%
+bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%-
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -56,18 +53,15 @@ floating_modifier $mod
 tiling_drag modifier titlebar
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+Return exec --no-startup-id alacritty msg create-window
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
-# start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-7/launcher.sh
-# A more modern dmenu replacement is rofi:
-# bindcode $mod+40 exec "rofi -show drun"
-# There also is i3-dmenu-desktop which only displays applications shipping a
-# .desktop file. It is a wrapper around dmenu, so you need that installed.
-# bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
+# start rofi
+bindsym $mod+d exec --no-startup-id rofi -show drun
+# alternate rofi keystroke (in case of the d key failing)
+bindsym $mod+t exec --no-startup-id rofi -show drun
 
 # change focus
 bindsym $mod+j focus left
@@ -97,7 +91,7 @@ bindsym $mod+Shift+Right move right
 bindsym $mod+h split h
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+b split v
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen toggle
@@ -160,7 +154,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+r restart
-# Opens the rofi powermenu
+# exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec --no-startup-id ~/.config/rofi/powermenu/type-5/powermenu.sh
 
 # resize window (you can also use the mouse for that)
@@ -199,25 +193,24 @@ bar {
     workspace_buttons no
 }
 
-# (xrandr) Set output eDP-1 to mode 1920x1080
-exec_always --no-startup-id xrandr --output eDP-1 --mode 1920x1080
+# (xrandr) Set output eDP-1 to mode 1280x720
+exec_always --no-startup-id xrandr --output eDP-1 --mode 1280x720
+# why does the display resolution reset after the screen locks :sob:
 
 # Set default border
-default_border pixel
-default_floating_border pixel
+default_border pixel 3
+default_floating_border pixel 3
 
-# border colors 
 # class                 border    backgr.   text    indicator  child_border
-
-# client.focused          #ff7139D0 #ff7139D0 #ffffff #ff7139D0  #ff7139D0
-client.focused		#ff7139   #ff7139   #ff7139 #ff7139    #ff7139
-# client.focused_inactive #ff713980 #ff713980 #ffffff #ff713980  #ff713980
-client.focused_inactive #4f220f #4f220f #00000000 #4f220f  #4f220f
-# client.unfocused        #ff7139A0 #ff7139A0 #888888 #ff7139A0  #ff7139A0
-client.unfocused	 #4f220f #4f220f #00000000 #4f220f  #4f220f
-# client.unfocused        #b54f27A0 #b54f27A0 #888888 #b54f27A0  #b54f27A0
-client.urgent           #2f343a0D #9000000D #ffffff #9000000D  #9000000D
-client.placeholder      #00000000 #00000000 #ffffff #00000000  #00000000
+#client.focused          #ff7139D0 #ff7139D0 #edddbd #ff7139D0  #ff7139D0
+client.focused		#ff7139   #ff7139   #4f220f #ff7139    #ff7139
+#client.focused_inactive #ff713980 #ff713980 #edddbd #ff713980  #ff713980
+client.focused_inactive #4f220f   #4f220f   #edddbd #4f220f    #4f220f
+#client.unfocused        #ff7139A0 #ff7139A0 #edddbd #ff7139A0  #ff7139A0
+client.unfocused	#4f220f   #4f220f   #edddbd #4f220f    #4f220f
+#client.unfocused        #b54f27A0 #b54f27A0 #edddbd #b54f27A0  #b54f27A0
+client.urgent           #2f343a0D #9000000D #edddbd #9000000D  #9000000D
+client.placeholder      #00000000 #00000000 #edddbd #00000000  #00000000
 
 client.background       #ffffff
 
@@ -228,7 +221,30 @@ gaps inner 12px
 gaps outer 0px
 
 # Sets wallpaper on startup using Nitrogen
-exec --no-startup-id nitrogen --set-zoom-fill ~/.config/nitrogen/wallpapers/firewatch/1.png
+exec --no-startup-id nitrogen --set-zoom-fill ~/.config/nitrogen/wallpapers/firewatch/6.jpg
 # Sets a random wallpaper in ~/Pictures/Wallpapers/firewatch
-bindsym $mod+t exec --no-startup-id nitrogen --set-zoom-fill --random ~/.config/nitrogen/wallpapers
+#bindsym $mod+t exec --no-startup-id nitrogen --set-zoom-fill --random ~/.config/nitrogen/wallpapers
 
+# Enables policykit (surely i was supposed to NOT have to do this?)
+exec --no-startup-id /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+# Flameshot GUI
+bindsym Print exec --no-startup-id flameshot gui
+
+# Copyq
+exec --no-startup-id copyq --start-server
+bindsym $mod+v exec --no-startup-id copyq show
+for_window [class="copyq" instance="copyq"] floating enable
+
+# Emote
+bindsym $mod+period exec --no-startup-id flatpak run com.tomjwatson.Emote
+
+# Enable reverse touchpad scrolling
+exec --no-startup-id xinput set-prop "SYNA7DAB:00 06CB:CD40 Touchpad" "libinput Natural Scrolling Enabled" 1
+exec --no-startup-id xinput set-prop "SYNA7DAB:00 06CB:CD40 Touchpad" "libinput Disable While Typing Enabled" 0
+# i KNOW there has to be a better way of doing this, but honestly i don't care enough right now
+# the "Default" props don't work, i tried
+
+# run xborder on startup (rounded window borders)
+# exec --no-startup-id .config/xborder/./xborders -c .config/xborder/config.json
+# doesn't play nice with picom animations : (
