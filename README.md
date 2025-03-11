@@ -6,7 +6,7 @@
 
 flatpak(s): `flatpak install com.tomjwatson.Emote`
 
-extra packages: `sudo apt install nala copyq btop cmatrix flameshot`
+extra packages: `sudo apt install nala copyq btop cmatrix flameshot qimgv`
 
 -----
 
