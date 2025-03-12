@@ -1,3 +1,5 @@
+![2025-03-11_22-06](https://github.com/user-attachments/assets/c72285c9-9081-4027-8669-12e07114e2ef)
+
 # this branch has the configuration files from my computer, unmodified. i'd rather not use these files if i were you
 
 *required packages*: i3, jq, nitrogen, polybar, picom, rofi, brightnessctl, alacritty(or any terminal emulator that works with nerdfonts)
