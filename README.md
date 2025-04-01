@@ -1,6 +1,6 @@
 # spammy-i3wm-dotfiles
 ![image](https://github.com/user-attachments/assets/8f3c3659-7e90-425c-946e-1778b34bb5fb)
-### this repo is outdated, if you're reading this then tell me to update it thanks!!!!
+### this repo is outdated btw i'll fix it up sometime if i feel like it
 *required packages*: i3, jq, nitrogen, polybar, picom, rofi, brightnessctl, alacritty(or any terminal emulator that works with nerdfonts)
 
 `$ sudo apt install i3 jq nitrogen polybar picom rofi brightnessctl alacritty`  (i've never used any distro other than mint so i don't know how other package managers are used, sorry)
