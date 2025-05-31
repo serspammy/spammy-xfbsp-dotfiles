@@ -1,19 +1,31 @@
 # spammy-i3wm-dotfiles
 ![image](https://github.com/user-attachments/assets/8f3c3659-7e90-425c-946e-1778b34bb5fb)
-### this repo is outdated btw i'll fix it up sometime if i feel like it
-*required packages*: i3, jq, nitrogen, polybar, picom, rofi, brightnessctl, alacritty(or any terminal emulator that works with nerdfonts)
+## stuff to install: i3 nitrogen polybar picom rofi alacritty
+- i3 (duh)
+- xfce4 (desktop environment)
+- nitrogen (wallpaper)
+- picom (EYE CANDY 🤑🤑🤑🤑)
 
-`$ sudo apt install i3 jq nitrogen polybar picom rofi brightnessctl alacritty`  (i've never used any distro other than mint so i don't know how other package managers are used, sorry)
+## non-essentials for this rice:
+- polybar (practically replaced by xfce4-panel, but an old configuration of mine exists if you want)
+ - alacritty (or some other terminal that'll work with nerdfonts)
+  - a nerd font (duh)
+- rofi (replaced by xfce4-appfinder, but an old configuration of mine exists if you want)
+- dunst (replaced by xfce4-notifyd. again, a config exists if you want)
+- ~~[i3lock-color](https://github.com/Raymo111/i3lock-color) (replaced by xflock4/xfce4-screensaver, config exists but i never got it to work on startup. i don't know why it wouldn't work) (you probably need to build this from source btw unless you're on arch or whatever)~~
+- i3lock-fancy
 
+definitely not essential stuff:
+- qimgv (image viewer with no menubar or whatever)
 -----
 
-*nerd fonts used*: UbuntuMono, SauceCodePro, Iovseka
+nerd fonts used: UbuntuMono, SauceCodePro
 
-*custom polybar modules*: power and launcher (https://github.com/adi1090x/rofi)
+custom polybar modules: power and launcher (https://github.com/adi1090x/rofi)
 
-*rofi theme*: https://github.com/adi1090x/rofi
+rofi theme: https://github.com/adi1090x/rofi
 
-*image viewer*: qimgv
+image viewer: qimgv
 
 -----
 
