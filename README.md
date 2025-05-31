@@ -1,50 +1,42 @@
-# spammy-i3wm-dotfiles
+# spammy-xfi3-dotfiles
 ![image](https://github.com/user-attachments/assets/8f3c3659-7e90-425c-946e-1778b34bb5fb)
-## stuff to install: i3 nitrogen polybar picom rofi alacritty
+### a mix of xfce and i3wm
+basic setup instructions: 
+
+### stuff to install
 - i3 (duh)
 - xfce4 (desktop environment)
 - nitrogen (wallpaper)
 - picom (EYE CANDY 🤑🤑🤑🤑)
 
-## non-essentials for this rice:
-- polybar (practically replaced by xfce4-panel, but an old configuration of mine exists if you want)
- - alacritty (or some other terminal that'll work with nerdfonts)
+### non-essentials for this rice:
+- polybar (replaced by xfce4-panel)
+- rofi (replaced by xfce4-appfinder)
+- dunst (replaced by xfce4-notifyd)
+- alacritty (or some other terminal that'll work with nerdfonts)
   - a nerd font (duh)
-- rofi (replaced by xfce4-appfinder, but an old configuration of mine exists if you want)
-- dunst (replaced by xfce4-notifyd. again, a config exists if you want)
 - ~~[i3lock-color](https://github.com/Raymo111/i3lock-color) (replaced by xflock4/xfce4-screensaver, config exists but i never got it to work on startup. i don't know why it wouldn't work) (you probably need to build this from source btw unless you're on arch or whatever)~~
-- i3lock-fancy
+- i3lock-fancy (just use this one tbh)
 
-definitely not essential stuff:
+#### other things in screenshots:
 - qimgv (image viewer with no menubar or whatever)
+- cmatrix
+- cava
+- cbonsai
+- pipes.sh
 -----
 
-nerd fonts used: UbuntuMono, SauceCodePro
+### nerd fonts used:
+- Ubuntu Medium (i3 titlebars, if you want them)
+- JetbrainsMono (terminal font)
 
-custom polybar modules: power and launcher (https://github.com/adi1090x/rofi)
-
-rofi theme: https://github.com/adi1090x/rofi
-
-image viewer: qimgv
+### rofi theme: https://github.com/adi1090x/rofi
 
 -----
+## notes:
 
-**vv probably needs to be built from source if you're on a deb-based distro vv**
-
-*i3lock-color* (i3lock fork for customization): https://github.com/Raymo111/i3lock-color
-
-*picom version v12.5*: https://github.com/yshui/picom
-
-
-# notes:
-
- **1. add yourself to the `video` group for brightnessctl to work without `sudo`** (there's probably a more graceful way of doing this but this is what works for me. if you have a preferred or outright better solution then please change the config accordingly)
- 
- **2. the polybar weather module is not provided, follow the instructions given in https://github.com/Strix007/polybar-getweather** (or just use one that doesn't require an openweather account lol i should've tried looking for that myself)
- 
- **3. press $mod+t to set a random wallpaper! they're located inside `~/.config/nitrogen/wallpapers`**
-
-4. i wanted to have rofi fly in from the left as a sidebar but i couldn't get the window rule to work. genereally picom's new window rules make my head hurt so i just don't use them 💀
-5. this is basically my first rice so some stuff might be messed up sorry!!!!
-6. the rofi folder is heavily cut down, go to the rofi themes repo linked above for more themes and stuff to use
-7. workspace switching animations don't seem to work a third of the time
+1. `$mod+t` to randomly switch wallpapers! walls should be located in `~/Pictures/wallpapers`
+2. my `picom.conf` uses the old config style because windows rules make my head hurt. sorry if you don't like badly-written configuration
+3. toggling resize mode will send a notification. not having an indicator when using a bar other than i3bar always bothered me
+4. multiple i3 utilities (i.e. dmenu/rofi, dunst, i3bar) have been replaced with xfce4 tools, but they have old existing configurations you can use
+5. you can use `xfce4-session-settings` to manage startup programs, but sometimes it doesn't work from my experience, so doing so using the i3 configuration is a working alternative
