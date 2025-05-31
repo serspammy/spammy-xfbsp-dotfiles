@@ -1,11 +1,12 @@
 # spammy-xfi3-dotfiles
-| tiled | floating |
+| tiled layout | floating windows |
 | -- | -- |
 ![tiled](https://github.com/user-attachments/assets/f86b233e-b4e6-4bb9-9ce3-8467de4973a2) | ![floating](https://github.com/user-attachments/assets/824ac0a2-795a-4621-bbfa-7e5091c74619)
 
 ### a mix of xfce and i3wm
-basic setup instructions: 
+basic setup instructions: https://gist.github.com/fathulfahmy/61910e84b99b38009ad9268811e4aa2a
 
+--- 
 ### stuff to install
 - i3 (duh)
 - xfce4 (desktop environment)
@@ -35,10 +36,10 @@ basic setup instructions:
 - Ubuntu Medium (i3 titlebars, if you want them)
 - JetbrainsMono (terminal font)
 
-### rofi theme: https://github.com/adi1090x/rofi
+### rofi theme (not pictured): https://github.com/adi1090x/rofi
 
 -----
-## notes:
+### notes:
 
 1. `$mod+t` to randomly switch wallpapers! walls should be located in `~/Pictures/wallpapers`
 2. my `picom.conf` uses the old config style because windows rules make my head hurt. sorry if you don't like badly-written configuration
