@@ -14,11 +14,11 @@ basic setup instructions: https://gist.github.com/fathulfahmy/61910e84b99b38009a
 - picom (EYE CANDY 🤑🤑🤑🤑)
 
 ### non-essentials for this rice:
-- polybar (replaced by xfce4-panel)
 - rofi (replaced by xfce4-appfinder)
 - dunst (replaced by xfce4-notifyd)
-- alacritty (or some other terminal that'll work with nerdfonts)
-  - a nerd font (duh)
+- polybar (replaced by xfce4-panel)
+  - alacritty (or some other terminal that'll work with nerdfonts)
+    - a nerd font (duh)
 - ~~[i3lock-color](https://github.com/Raymo111/i3lock-color) (replaced by xflock4/xfce4-screensaver, config exists but i never got it to work on startup. i don't know why it wouldn't work) (you probably need to build this from source btw unless you're on arch or whatever)~~
 - i3lock-fancy (just use this one tbh)
 
