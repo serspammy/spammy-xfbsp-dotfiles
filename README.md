@@ -1,5 +1,8 @@
 # spammy-xfi3-dotfiles
-![image](https://github.com/user-attachments/assets/8f3c3659-7e90-425c-946e-1778b34bb5fb)
+| tiled | floating |
+| -- | -- |
+![tiled](https://github.com/user-attachments/assets/f86b233e-b4e6-4bb9-9ce3-8467de4973a2) | ![floating](https://github.com/user-attachments/assets/824ac0a2-795a-4621-bbfa-7e5091c74619)
+
 ### a mix of xfce and i3wm
 basic setup instructions: 
 
@@ -24,6 +27,8 @@ basic setup instructions:
 - cava
 - cbonsai
 - pipes.sh
+- fastfetch
+  - hyfetch for the gays
 -----
 
 ### nerd fonts used:
