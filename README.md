@@ -46,3 +46,12 @@ basic setup instructions: https://gist.github.com/fathulfahmy/61910e84b99b38009a
 3. toggling resize mode will send a notification. not having an indicator when using a bar other than i3bar always bothered me
 4. multiple i3 utilities (i.e. dmenu/rofi, dunst, i3bar) have been replaced with xfce4 tools, but they have old existing configurations you can use
 5. you can use `xfce4-session-settings` to manage startup programs, but sometimes it doesn't work from my experience, so doing so using the i3 configuration is a working alternative
+6. there are keybinds defined for `xfce4-screenshot`:
+   - `Print` - takes a fullscreen screenshot
+   - `Control+Print` - takes a screenshot of the selected region
+   - `$mod+Print` - screenshots the current active window
+   using these keybinds to take screenshots will send a notification and automatically save them to `~/Pictures` without a gui prompt, along with a filename corresponding to whether you took a fullscreen, region, or window screenshot
+| saved screenshots | screenshot notifications|
+| -- | -- |
+| ![image](https://github.com/user-attachments/assets/2fa44e3c-e351-4e8d-892a-fd7df81f1fae) | ![image](https://github.com/user-attachments/assets/98117ff7-2b1e-4b7e-84f9-240d1ff7d36a) |
+
