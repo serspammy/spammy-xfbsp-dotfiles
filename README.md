@@ -51,7 +51,8 @@ basic setup instructions: https://gist.github.com/fathulfahmy/61910e84b99b38009a
    - `Control+Print` - takes a screenshot of the selected region
    - `$mod+Print` - screenshots the current active window
    using these keybinds to take screenshots will send a notification and automatically save them to `~/Pictures` without a gui prompt, along with a filename corresponding to whether you took a fullscreen, region, or window screenshot
+
 | saved screenshots | screenshot notifications|
 | -- | -- |
-| ![image](https://github.com/user-attachments/assets/2fa44e3c-e351-4e8d-892a-fd7df81f1fae) | ![image](https://github.com/user-attachments/assets/98117ff7-2b1e-4b7e-84f9-240d1ff7d36a) |
+![image](https://github.com/user-attachments/assets/2fa44e3c-e351-4e8d-892a-fd7df81f1fae) | ![image](https://github.com/user-attachments/assets/98117ff7-2b1e-4b7e-84f9-240d1ff7d36a)
 
