@@ -1,14 +1,14 @@
-# spammy-xfi3-dotfiles
+# spammy-xfbsp-dotfiles
 | tiled layout | floating windows |
 | -- | -- |
 ![tiled](https://github.com/user-attachments/assets/f86b233e-b4e6-4bb9-9ce3-8467de4973a2) | ![floating](https://github.com/user-attachments/assets/824ac0a2-795a-4621-bbfa-7e5091c74619)
 
-### a mix of xfce and i3wm
+### a mix of xfce and ~~i3wm~~ bspwm
 basic setup instructions: https://gist.github.com/fathulfahmy/61910e84b99b38009ad9268811e4aa2a
 
 --- 
 ### stuff to install
-- i3 (duh)
+- bspwm (duh)
 - xfce4 (desktop environment)
 - nitrogen (wallpaper)
 - picom (EYE CANDY 🤑🤑🤑🤑)
@@ -20,7 +20,7 @@ basic setup instructions: https://gist.github.com/fathulfahmy/61910e84b99b38009a
   - alacritty (or some other terminal that'll work with nerdfonts)
     - a nerd font (duh)
 - ~~[i3lock-color](https://github.com/Raymo111/i3lock-color) (replaced by xflock4/xfce4-screensaver, config exists but i never got it to work on startup. i don't know why it wouldn't work) (you probably need to build this from source btw unless you're on arch or whatever)~~
-- i3lock-fancy (just use this one tbh)
+- ~~i3lock-fancy (just use this one tbh)~~ replaced by xfce4-screensaver
 
 #### other things in screenshots:
 - qimgv (image viewer with no menubar or whatever)
@@ -30,6 +30,7 @@ basic setup instructions: https://gist.github.com/fathulfahmy/61910e84b99b38009a
 - pipes.sh
 - fastfetch
   - hyfetch for the gays
+- fish
 -----
 
 ### nerd fonts used:
