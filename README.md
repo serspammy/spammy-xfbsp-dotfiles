@@ -1,11 +1,11 @@
 # spammy-xfbsp-dotfiles
 | tiled layout | floating windows |
 | -- | -- |
-![tiled](https://github.com/user-attachments/assets/a38c6078-8ef5-48a4-8102-17791fb9b0a7) | ![floating](https://github.com/user-attachments/assets/00cc92b2-edcb-4ca6-b1b8-00a325ec497c)
+![tiled](screenshots/tiled.png) | ![floating](screenshots/floating.png)
 
 | picom animations |
 | -- |
-INSERT VIDEO HERE
+![animations](screenshots/animations.mp4)
 
 ## a mix of xfce and bspwm
 ### setup instructions: TO DO
