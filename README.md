@@ -17,6 +17,10 @@
 - fastfetch
   - hyfetch for the gays
 - fish
+- qimgv
+- cava
+- cmatrix
+- rmpc
 
 ### nerd fonts used:
 - Ubuntu Mono (proportional/normal font)
