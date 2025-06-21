@@ -3,10 +3,6 @@
 | -- | -- |
 ![tiled](screenshots/tiled.png) | ![floating](screenshots/floating.png)
 
-| picom animations |
-| -- |
-![animations](screenshots/animations.mp4)
-
 ## a mix of xfce and bspwm
 ### setup instructions: TO DO
 
