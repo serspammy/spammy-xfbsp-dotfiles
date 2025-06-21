@@ -5,18 +5,18 @@
 
 ## a mix of xfce and bspwm
 ### setup instructions:
-0.a: install the following: xfce, bspwm, picom, kitty
-0.b: go to `/usr/share/doc/bspwm/` and copy `bspwmrc` and `sxhkdrc` to `~/.config/bspwm/` and `~/.config/sxhkd/` respectively
+0. install the following: xfce bspwm picom kitty
+1. go to `/usr/share/doc/bspwm/` and copy `bspwmrc` and `sxhkdrc` to `~/.config/bspwm/` and `~/.config/sxhkd/` respectively
 
 if `/usr/share/doc/bspwm/` doesn't exist, get the sample configurations from [here](https://github.com/baskerville/bspwm/tree/master/examples) instead
 
-1. open **Keyboard**, and go to **Application Shortcuts**
-2. remove all shortcuts, as they will be handled by sxhkd instead
-3. open **Session and Startup**
-4. go to **Current Session**
-5. for xfwm4 and xfce4-panel, set restart style to **never**
-6. go to **Application Autostart**
-7. add entries for bspwm, picom and xfce4-panel:
+2. open **Keyboard**, and go to **Application Shortcuts**
+3. remove all shortcuts, as they will be handled by sxhkd instead
+4. open **Session and Startup**
+5. go to **Current Session**
+6. for xfwm4 and xfce4-panel, set restart style to **never**
+7. go to **Application Autostart**
+8. add entries for bspwm, picom and xfce4-panel:
 ```
 Name: BSPWM
 Description: Binary Space Partitioning Window Manager
@@ -33,6 +33,8 @@ Description: Panel for the Xfce Desktop Environment
 Command: xfce4-panel
 Trigger: on login
 ```
+9. logout, and back in
+
 sxhkd will automatically run alongside bspwm, no need to make an entry for that. optionally, you could actually just use keyboard settings for shortcuts, and forego sxhkd, but i find using sxhkd a little more convenient
 
 the reason we have to disable xfce4-panel in 'Current Session', only to make a startup entry for it, is because leaving it like that would have the panel be invisible while still running. this is a workaround to that weird behavior
@@ -64,6 +66,6 @@ the reason we have to disable xfce4-panel in 'Current Session', only to make a s
 - https://github.com/vinceliuice/vimix-gtk-themes
 - https://github.com/vinceliuice/vimix-kde
 -----
-### notes:
+### spammy's notes:
 
-1. `xfce4-session-settings` is primarily used for managing startup programs with the xfce session
+1. i suggest using `xfce4-session-settings` to handle startup programs
