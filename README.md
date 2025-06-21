@@ -13,13 +13,14 @@ git clone https://github.com/serspammy/spammy-xfbsp-dotfiles/edit/main/README.md
 2. copy+paste contents of `.config` into `~/.config/`
 
 (you may need to press `ctrl+h` to reveal the `.config/` directory inside of the cloned repository's directory. my bad for naming it like that, i forgot that linux was like that lmao)
-4. open **Keyboard**, and go to **Application Shortcuts**
-5. remove all shortcuts, as they will be handled by sxhkd instead
-6. open **Session and Startup**
-7. go to **Current Session**
-8. for xfwm4 and xfce4-panel, set restart style to **never**
-9. go to **Application Autostart**
-10. add entries for bspwm, picom and xfce4-panel:
+
+3. open **Keyboard**, and go to **Application Shortcuts**
+4. remove all shortcuts, as they will be handled by sxhkd instead
+5. open **Session and Startup**
+6. go to **Current Session**
+7. for xfwm4 and xfce4-panel, set restart style to **never**
+8. go to **Application Autostart**
+9. add entries for bspwm, picom and xfce4-panel:
 ```
 Name: BSPWM
 Description: Binary Space Partitioning Window Manager
@@ -36,7 +37,7 @@ Description: Panel for the Xfce Desktop Environment
 Command: xfce4-panel
 Trigger: on login
 ```
-9. logout, and back in
+10. logout, and back in
 
 sxhkd will automatically run alongside bspwm, no need to make an entry for that. optionally, you could actually just use keyboard settings for shortcuts, and forego sxhkd, but i find using sxhkd a little more convenient
 
