@@ -5,7 +5,8 @@
 
 ## a mix of xfce and bspwm
 ### setup instructions:
-0. go to `/usr/share/doc/bspwm/` and copy `bspwmrc` and `sxhkdrc` to `~/.config/bspwm/` and `~/.config/sxhkd/` respectively
+0.a: install the following: xfce, bspwm, picom, kitty
+0.b: go to `/usr/share/doc/bspwm/` and copy `bspwmrc` and `sxhkdrc` to `~/.config/bspwm/` and `~/.config/sxhkd/` respectively
 
 if `/usr/share/doc/bspwm/` doesn't exist, get the sample configurations from [here](https://github.com/baskerville/bspwm/tree/master/examples) instead
 
