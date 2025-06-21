@@ -56,7 +56,8 @@ wget -qO- https://git.io/papirus-folders-install | sh
 papirus-folders -C red
 ```
 12. go to appearance settings and select Vimix-dark-ruby and Papirus-Dark
-13. done, logout and back into xfce
+13. open xfce-panel-profiles, click on 'import' and select `spammy.bspwm.tar.bz`
+14. done, logout and back into xfce
 
 sxhkd will automatically run alongside bspwm, no need to make an entry for that. optionally, you could actually just use xfce's keyboard settings for shortcuts, and forego sxhkd, but i find using sxhkd a little more convenient
 
