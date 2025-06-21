@@ -39,7 +39,7 @@ Trigger: on login
 ```
 10. logout, and back in
 
-sxhkd will automatically run alongside bspwm, no need to make an entry for that. optionally, you could actually just use keyboard settings for shortcuts, and forego sxhkd, but i find using sxhkd a little more convenient
+sxhkd will automatically run alongside bspwm, no need to make an entry for that. optionally, you could actually just use xfce's keyboard settings for shortcuts, and forego sxhkd, but i find using sxhkd a little more convenient
 
 the reason we have to disable xfce4-panel in 'Current Session', only to make a startup entry for it, is because leaving it like that would have the panel be invisible while still running. this is a workaround to that weird behavior
 
