@@ -20,7 +20,7 @@ git clone https://github.com/serspammy/spammy-xfbsp-dotfiles/edit/main/README.md
 6. go to **Current Session**
 7. for xfwm4 and xfce4-panel, set restart style to **never**
 8. go to **Application Autostart**
-9. add entries for bspwm, picom and xfce4-panel:
+9. add entries for bspwm, picom, xfsettingsd and xfce4-panel:
 ```
 Name: BSPWM
 Description: Binary Space Partitioning Window Manager
@@ -30,6 +30,11 @@ Trigger: on login
 Name: Picom
 Description: x11 compositing manager
 Command: picom -b
+Trigger: on login
+
+Name: xfsettingsd
+Description: Xfwm theme workaround
+Comman: xfsettingsd --replace
 Trigger: on login
 
 Name: Xfce Panel
