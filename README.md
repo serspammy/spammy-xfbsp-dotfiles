@@ -1,7 +1,7 @@
 # spammy-xfbsp-dotfiles
 | tiled layout | floating windows |
 | -- | -- |
-![tiled](screenshots/tiled.png) | ![floating](screenshots/floating.png)
+![tiled](screenshots/tiled2.png) | ![floating](screenshots/floating2.png)
 
 ## a mix of xfce and bspwm
 ### setup instructions: TO DO
