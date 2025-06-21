@@ -11,6 +11,7 @@
 - bspwm (duh)
 - xfce4 (desktop environment)
 - picom (EYE CANDY 🤑🤑🤑🤑)
+- kitty (terminal)
 
 #### other things in screenshots:
 - fastfetch
@@ -18,20 +19,14 @@
 - fish
 
 ### nerd fonts used:
-- [Maple Mono](https://github.com/subframe7536/Maple-font) (terminal font)
-- [JetbrainsMono](https://www.nerdfonts.com/font-downloads) (old, unused config for polybar)
+- Ubuntu Mono (proportional/normal font)
+- JetbrainsMono (monospace/terminal font)
+  https://www.nerdfonts.com/font-downloads
 
+### gtk/qt theme:
+https://github.com/vinceliuice/vimix-gtk-themes
+https://github.com/vinceliuice/vimix-kde
 -----
 ### notes:
 
-1. there are keybinds defined for `xfce4-screenshot`:
-   - `Print` - takes a fullscreen screenshot
-   - `Control+Print` - takes a screenshot of the selected region
-   - `$mod+Print` - screenshots the current active window
-   screenshots are automatically saved to your clipboard (`-c`) and to disk (`-s ~/Pictures/xfce4-screenshooter/`) in their respective subdirectories (i.e. fullscreen screeshots are in `~/Pictures/xfce4-screenshooter/Fullscreen` 
-2. `xfce4-session-settings` is primarily used for managing startup programs with the xfce session
-
-| saved screenshots | screenshot notifications|
-| -- | -- |
-![image](https://github.com/user-attachments/assets/2fa44e3c-e351-4e8d-892a-fd7df81f1fae) | ![image](https://github.com/user-attachments/assets/98117ff7-2b1e-4b7e-84f9-240d1ff7d36a)
-
+1. `xfce4-session-settings` is primarily used for managing startup programs with the xfce session
