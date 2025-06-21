@@ -21,11 +21,12 @@
 ### nerd fonts used:
 - Ubuntu Mono (proportional/normal font)
 - JetbrainsMono (monospace/terminal font)
+
   https://www.nerdfonts.com/font-downloads
 
 ### gtk/qt theme:
-https://github.com/vinceliuice/vimix-gtk-themes
-https://github.com/vinceliuice/vimix-kde
+- https://github.com/vinceliuice/vimix-gtk-themes
+- https://github.com/vinceliuice/vimix-kde
 -----
 ### notes:
 
