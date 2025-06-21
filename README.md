@@ -69,3 +69,4 @@ the reason we have to disable xfce4-panel in 'Current Session', only to make a s
 ### spammy's notes:
 
 1. i suggest using `xfce4-session-settings` to handle startup programs
+2. if you ever need to, you can replace bspwm with xfwm4 by opening a terminal and running `xfwm4 --replace` (unless you've uninstalled xfwm4)
