@@ -21,6 +21,7 @@
 - cava
 - cmatrix
 - rmpc
+- btop
 ---
 ### nerd fonts used:
 - Ubuntu Mono (proportional/normal font)
