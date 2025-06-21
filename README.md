@@ -6,17 +6,19 @@
 ## a mix of xfce and bspwm
 ### setup instructions:
 0. install the following: xfce bspwm picom kitty
-1. go to `/usr/share/doc/bspwm/` and copy `bspwmrc` and `sxhkdrc` to `~/.config/bspwm/` and `~/.config/sxhkd/` respectively
-
-if `/usr/share/doc/bspwm/` doesn't exist, get the sample configurations from [here](https://github.com/baskerville/bspwm/tree/master/examples) instead
-
-2. open **Keyboard**, and go to **Application Shortcuts**
-3. remove all shortcuts, as they will be handled by sxhkd instead
-4. open **Session and Startup**
-5. go to **Current Session**
-6. for xfwm4 and xfce4-panel, set restart style to **never**
-7. go to **Application Autostart**
-8. add entries for bspwm, picom and xfce4-panel:
+1. clone this repository:
+```
+git clone https://github.com/serspammy/spammy-xfbsp-dotfiles/edit/main/README.md
+```
+2. copy+paste contents of `.config` into `~/.config/`
+(you may need to press `ctrl+h` to reveal the `.config/` directory inside of the cloned repository's directory. my bad for naming it like that, i forgot that linux was like that lmao)
+3. open **Keyboard**, and go to **Application Shortcuts**
+4. remove all shortcuts, as they will be handled by sxhkd instead
+5. open **Session and Startup**
+6. go to **Current Session**
+7. for xfwm4 and xfce4-panel, set restart style to **never**
+8. go to **Application Autostart**
+9. add entries for bspwm, picom and xfce4-panel:
 ```
 Name: BSPWM
 Description: Binary Space Partitioning Window Manager
