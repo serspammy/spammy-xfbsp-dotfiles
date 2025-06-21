@@ -10,7 +10,7 @@
 ```
 git clone https://github.com/serspammy/spammy-xfbsp-dotfiles/edit/main/README.md
 ```
-2. copy+paste contents of `.config` into `~/.config/`
+2. copy+paste contents of `.config/` into `~/.config/`
 
 (you may need to press `ctrl+h` to reveal the `.config/` directory inside of the cloned repository's directory. my bad for naming it like that, i forgot that linux was like that lmao)
 
