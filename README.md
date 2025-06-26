@@ -65,10 +65,11 @@ the reason we have to disable xfce4-panel in 'Current Session', only to make a s
 
 --- 
 ### basic stuff to install
+- tmux (terminal multiplexer)
 - bspwm (duh)
 - xfce4 (desktop environment)
 - picom (EYE CANDY 🤑🤑🤑🤑)
-- kitty (terminal)
+- alacritty (terminal)
 - kvantum (qt theme manager)
 - symbols-only-nerd-fonts (nerd font icons)
 
@@ -81,6 +82,7 @@ the reason we have to disable xfce4-panel in 'Current Session', only to make a s
 - cmatrix
 - rmpc
 - btop
+- kitty (other terminal emulator)
 ---
 ### nerd fonts used:
 - Ubuntu Mono (proportional/normal font)
