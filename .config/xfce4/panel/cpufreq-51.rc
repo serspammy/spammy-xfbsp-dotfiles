@@ -1,0 +1,9 @@
+show_cpu=-2
+show_icon=false
+show_label_governor=false
+keep_compact=true
+one_line=true
+icon_color_freq=true
+fontname=Ubuntu Nerd Font Bold 10
+timeout=3
+
