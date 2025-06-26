@@ -5,7 +5,7 @@
 
 ## a mix of xfce and bspwm
 ### setup instructions:
-0. install the following: xfce bspwm picom kitty kvantum-manager symbols-only-nerd-fonts papirus-icon-theme papirus-folders
+0. install the following: xfce bspwm picom alacritty tmux kvantum-manager symbols-only-nerd-fonts papirus-icon-theme papirus-folders
 1. clone this repository and copy configurations into your .config:
 ```
 git clone https://github.com/serspammy/spammy-xfbsp-dotfiles
