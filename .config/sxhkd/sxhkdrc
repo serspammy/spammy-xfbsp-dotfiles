@@ -7,7 +7,12 @@
 # terminal emulator
 # default: urxvt
 super + Return
-	kitty
+	alacritty msg create-window
+# if my xfce configurations work right then the alacritty daemon process should already be running so this works
+
+# terminal emulator in non-tmux session
+super + shift + Return
+	alacritty msg create-window -e fish
 
 # program launcher
 # default: dmenu_run
