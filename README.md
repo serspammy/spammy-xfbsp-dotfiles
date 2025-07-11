@@ -103,3 +103,7 @@ the reason we have to disable xfce4-panel in 'Current Session', only to make a s
 1. i suggest using `xfce4-session-settings` to handle startup programs
 2. if you ever need to, you can replace bspwm with xfwm4 by opening a terminal and running `xfwm4 --replace` (unless you've uninstalled xfwm4)
 3. alacritty windows will open attached to an existing tmux session by default, press `super + shift + Return (Enter)` to open in a normal fish session
+
+---
+### license
+this repository is licensed under the **Do What The Fuck You Want To Public License**. it's just config files i literally don't care
