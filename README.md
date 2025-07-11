@@ -106,4 +106,4 @@ the reason we have to disable xfce4-panel in 'Current Session', only to make a s
 
 ---
 ### license
-this repository is licensed under the **[Do What The Fuck You Want To Public License](LICENSE)**. it's just config files i literally don't care
+this repository is licensed under the **[Do What The Fuck You Want To Public License](LICENSE)**. i literally don't care
