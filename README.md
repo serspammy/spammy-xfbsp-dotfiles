@@ -1,6 +1,6 @@
 # spammy-xfbsp-dotfiles
 
-### note: i've switched to kde with krohnkite now so this repo is super unmaintained also the setup guide section is horribly written and idk if i'll ever get around to cleaning it up
+### note: i've switched to kde with krohnkite now so this repo is super unmaintained. also the "setup guide" is horribly written and idk if i'll ever get around to cleaning it up
 
 | tiled layout | floating windows |
 | -- | -- |
